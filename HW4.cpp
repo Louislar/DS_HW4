@@ -107,14 +107,18 @@ int main()
             //dequeue
             if(str1.compare(0, 1, "D")==0)
             {
-                if(!queue.isempty())
+                if(!queue.isEmpty())
                 {
-
+                    output.push(queue.front->data);
+                    queue.pop();
                 }
             }
 
             //enqueue
             if(str1.compare(0, 1, "E")==0)
+            {
+
+            }
         }
     }//while end
 
